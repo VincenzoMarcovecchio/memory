@@ -8,7 +8,22 @@
   margin-right: auto !important;
   margin-left: unset !important;
 }
-
+html {
+  scroll-behavior: smooth;
+}
+.cp-home__intro-image {
+  position: relative;
+  z-index: 2;
+}
+.cp-home__intro-image::after {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 0;
+  width: 0;
+  background: rgba(0, 0, 0.7);
+  z-index: 3;
+}
 .neon {
   font-family: neon;
   color: #fb4264;
