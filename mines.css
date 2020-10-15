@@ -79,9 +79,26 @@ html {
   }
 }
 
+.cp-home__container-servizi-item {
+  padding: 5%;
+}
+.cm-evento__info {
+  border: 1px solid gray;
+  padding: 35px;
+}
 @media only screen and (max-width: 500px) {
   .cp-home__container-servizi-inner {
     display: flex;
     flex-direction: column;
+    align-items: center;
+  }
+  .cp-home__container-servizi-item {
+    padding: 15px;
+  }
+  .cp-home__container-servizi {
+    padding: 0;
+  }
+  .inview-elem {
+    width: 100%;
   }
 }

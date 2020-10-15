@@ -1,0 +1,25 @@
+{
+  "name": "memory",
+  "version": "1.0.0",
+  "description": "night club website",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "parcel build index.html",
+    "build": "parcel build index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VincenzoMarcovecchio/memory.git"
+  },
+  "keywords": [
+    "boobs"
+  ],
+  "author": "Vincenzo Marcobbaldo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VincenzoMarcovecchio/memory/issues"
+  },
+  "homepage": "https://github.com/VincenzoMarcovecchio/memory#readme",
+  "dependencies": {}
+}
